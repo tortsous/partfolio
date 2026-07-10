@@ -73,7 +73,7 @@ h1 {
 /* BUTTON */
 .btn {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 750px;
     padding: 12px 30px;
     background: linear-gradient(45deg, #ff1a1a, #ff4d4d);
     color: white;
@@ -311,4 +311,40 @@ section {
 video, iFrame {
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.hero-banner {
+    position: relative;
+    height: 90vh;
+
+    background: url("images/bg.jpg") center/cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+font-size: 40px;
+margin-bottom: 200px;
+
+}
+
+.hero-content p {
+    color: #ccc;
+    margin-bottom: 50px;
 }
